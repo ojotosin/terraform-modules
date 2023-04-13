@@ -7,9 +7,3 @@ variable "public_subnet_az2_id" {}
 variable "target_type" {}
 variable "vpc_id" {}
 variable "certificate_arn" {}
-variable "" {}
-variable "" {}
-variable "" {}
-variable "" {}
-variable "" {}
-variable "" {}
