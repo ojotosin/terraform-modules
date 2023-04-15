@@ -74,6 +74,8 @@ resource "aws_ecs_service" "ecs_service" {
   desired_count                      = 2
   deployment_minimum_healthy_percent = 100
   deployment_maximum_percent         = 200
+  iam_role        = "arn:aws:iam::****:role/my_custom_role"
+
 
   # task tagging configuration
   enable_ecs_managed_tags = false
